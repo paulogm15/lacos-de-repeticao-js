@@ -1,44 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Laços de Repetição</title>
+    <title>JavaScript Testes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Variáveis</h1>
+    <div class="container">
+        <h1>Testes Práticos de Variáveis, Objetos, Decisão e Laços de Repetição</h1>
 
-    <p>Variáveis em JavaScript são usadas para armazenar dados que podem ser reutilizados e manipulados ao longo do
-        código. Elas permitem que você atribua valores e os use posteriormente em funções, expressões e operações.
-    </p>
+        <p>Escolha uma ação abaixo e insira os valores correspondentes para ver os exemplos de variáveis, objetos, decisões (if/else) e laços de repetição (for).</p>
 
-    <ol>
-        <li>
-            var
-            <p>
-                Antigo método de declarar variáveis. Tem escopo de função, o que significa que é visível em toda a
-                função onde é declarada. No entanto, pode causar problemas, pois permite redeclaração e tem escopo menos
-                restrito.
-            </p>
-            <ul>
-                <li>
-                    Exemplo:
-                    <p>var nome = "joao"</p>
-                </li>
-            </ul>
-        </li>
-        <li>let</li>
-        <li>const</li>
-    </ol>
+        <form id="testForm">
+            <h2>Selecione a Ação</h2>
+            <select id="action" required>
+                <option value="" disabled selected>Escolha uma ação</option>
+                <option value="variaveis">Testar Variáveis</option>
+                <option value="objeto">Testar Objeto</option>
+                <option value="decisao">Testar Decisão</option>
+                <option value="lacos">Testar Laços</option>
+            </select>
 
-    <h1>Objetos</h1>
+            <div id="inputSection">
 
-    <h1>Estruturas de decisão</h1>
+            </div>
 
-    <h1>Laços de Repetição</h1>
+            <button type="submit">Executar Teste</button>
+        </form>
+
+        <h2>Saída:</h2>
+        <p id="output"></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
