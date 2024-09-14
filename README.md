@@ -1,1 +1,12 @@
 # lacos-de-repeticao-js
+
+## Integrantes
+
+###
+
+ <div align="center">  
+
+| [<img src="https://github.com/Ana-Jessica.png" width=150><br><sub> Ana Jéssica A. Ribeiro </sub>](https://www.linkedin.com/in/ana-j%C3%A9ssica-23ar) | [<img src="https://github.com/Felpsgusto.png" width=150><br><sub> Felipe Augusto </sub>](https://www.linkedin.com/in/felipe-augusto-a47391194/) | [<img src="https://github.com/Kyotzz.png" width=150><br><sub> Kaio Rafael </sub>](https://www.linkedin.com/in/kaio-rafael-9049432b8/) | [<img src="https://github.com/paulogm15.png" width=150><br><sub> Paulo G M Santos </sub>](www.linkedin.com/in/paulo-santos-a81650106) |
+|---|---|---|---|
+
+</div>

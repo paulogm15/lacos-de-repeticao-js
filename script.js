@@ -29,7 +29,7 @@ document.getElementById("action").addEventListener("change", function () {
         inputSection.innerHTML = `
             <p><strong>Exemplo de Decisão:</strong> Insira sua idade para verificar se você é maior de idade (usando if/else).</p>
             <label for="idadeDecisao">Idade: <small>(Uma variável para verificar se você é maior de idade)</small></label>
-            <input type="number" id="idadeDecisao" placeholder="Digite a idade para verificar maioridade"><img src= "imagens/if_else.png">
+            <input type="number" id="idadeDecisao" placeholder="Digite a idade para verificar maioridade"><br><img src= "imagens/if_else.png">
         `;
     } else if (action === "lacos") {
         inputSection.innerHTML = `
@@ -83,7 +83,7 @@ document.getElementById("testForm").addEventListener("submit", function (event) 
         let resultado = "";
 
         for (let i = 0; i < vezes; i++) {
-            resultado += `Contagem: ${i+1}<br>`;
+            resultado += `Contagem: ${i + 1}<br>`;
         }
 
         output.innerHTML = resultado;
